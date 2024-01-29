@@ -11,18 +11,19 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                     <div className="auto-container">
                         <div className="inner">
                             <div className="top-left">
-                                <div className="text"><span>Too Little!</span> Receiving $100 / Hr Consulting. <Link href="#">Start Today</Link> </div>
+                                <div className="text"><span>Simpre Listos !</span> Realiza tu Cita /
+                                <Link href="#">Comienza hoy </Link> </div>
                             </div>
                             <div className="top-right">
                                 <ul className="contact-info">
-                                    <li><i className="flaticon-clock" />Office Hrs: Today 9.00am to 6.00pm</li>
-                                    <li><Link href="tel:(251)2353256"><i className="flaticon-phone" />+1 800 555 44 00</Link></li>
+                                    <li><i className="flaticon-clock" />Office Hrs: Today 8.00am to 6.00pm</li>
+                                    <li><Link href="tel:(251)2353256"><i className="flaticon-phone" />+1 484 908 44 64</Link></li>
                                 </ul>
                                 <div className="language">
                                     <span className="flaticon-global" />
                                     <form action="#" className="language-switcher">
                                         <select className="custom-select">
-                                            <option value={1}>English</option>
+                                            <option value={1}>Patua</option>
                                             <option value={1}>French</option>
                                             <option value={1}>Spanish</option>
                                             <option value={1}>Bengli</option>
@@ -39,7 +40,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                         <div className="inner-container clearfix">
                             {/*Logo*/}
                             <div className="logo-box">
-                                <div className="logo"><Link href="/"><img src="/assets/images/logo.png" alt="" /></Link></div>
+                                <div className="logo"><Link href="/"><img src="/assets/images/logo2.png" alt="" /></Link></div>
                             </div>
                             {/*Nav Box*/}
                             <div className="nav-outer clearfix">
@@ -69,7 +70,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="inner-container clearfix">
                                 {/*Logo*/}
                                 <div className="logo-box">
-                                    <div className="logo"><Link href="/"><img src="/assets/images/logo.png" alt="" /></Link></div>
+                                    <div className="logo"><Link href="/"><img src="/assets/images/logo2.png" alt="" /></Link></div>
                                 </div>
                                 {/*Nav Box*/}
                                 <div className="nav-outer clearfix">

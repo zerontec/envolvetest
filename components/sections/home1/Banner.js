@@ -36,13 +36,14 @@ export default function Banner() {
             <section className="banner-section style-one">
                 <Swiper {...swiperOptions} className="banner-carousel theme_carousel owl-theme">
                     <SwiperSlide className="slide-item">
-                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/1.jpg" />
+                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/s10.jpg" />
                         <div className="auto-container">
                             <div className="content-box justify-content-end">
                                 <div>
-                                    <h3>Envolve Will Helping </h3>
-                                    <h2>Build and <br /> Grow Business</h2>
-                                    <div className="text">We believe that our works can contribute to a better world.</div>
+                                    <h3>Soluciones en Equipos de Refrigeración </h3>
+                                    <h2>Especialistas <br /> en en Ramo</h2>
+                                    
+                                    <div className="text">on un Equipo especializado y preparado para responder a sus solicitudes .</div>
                                     <div className="btn-box">
                                         <Link href="#" className="theme-btn btn-style-one"><span className="btn-title">Our Company</span></Link>
                                         <Link href="#" className="theme-btn btn-style-two"><span className="btn-title">Contact Us</span></Link>
@@ -52,16 +53,34 @@ export default function Banner() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item">
-                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/2.jpg" />
+                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/s9.jpg" />
                         <div className="auto-container">
                             <div className="content-box justify-content-end">
                                 <div>
-                                    <h3>Envolve Will Helping </h3>
-                                    <h2>Build and <br /> Grow Business</h2>
-                                    <div className="text">We believe that our works can contribute to a better world.</div>
+                                    <h3 style={{color:"#0c2957"}}>Soluciones inmediatas </h3>
+                                    <h2>Reparacion y  <br /> mantenimiento</h2>
+                                    <div className="text" style={{color:"#0c2957"}}>Reparación Mantenimiento Preventivo en todos los equipos de Refrigeración.</div>
                                     <div className="btn-box">
                                         <Link href="#" className="theme-btn btn-style-one"><span className="btn-title">Our Company</span></Link>
                                         <Link href="#" className="theme-btn btn-style-two"><span className="btn-title">Contact Us</span></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide className="slide-item">
+                        <div className="image-layer lazy-image" data-bg="/assets/images/main-slider/s11.jpg" />
+                        <div className="auto-container">
+                            <div className="content-box justify-content-end">
+                                <div>
+                                    <h3>Contactenos estamos a un clic de distancia </h3>
+                                    <h2>Ponte en  <br /> Contacto</h2>
+                                    
+                                    <div className="text">Nuestros operadores los atenderan con mucho gusto .</div>
+                                    <div className="btn-box">
+                                        <Link href="#" className="theme-btn btn-style-one"><span className="btn-title">LA empresa</span></Link>
+                                        <Link href="#" className="theme-btn btn-style-two"><span className="btn-title">Contactanos </span></Link>
                                     </div>
                                 </div>
                             </div>
