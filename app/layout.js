@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${firaSans.variable} ${barlow.variable}`}>
            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-           <link rel="stylesheet" type="text/css" href="../public/assets/css/responsive.css" />
+            
             <body>{children}</body>
             <script src="//code.jivosite.com/widget/VTZftWI7lo" async></script>
         </html>

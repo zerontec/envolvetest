@@ -43,7 +43,7 @@ export default function Banner() {
                                     <h3>Soluciones en Equipos de Refrigeración </h3>
                                     <h2>Especialistas <br /> en en Ramo</h2>
                                     
-                                    <div className="text">on un Equipo especializado y preparado para responder a sus solicitudes .</div>
+                                    <div className="text">con un Equipo especializado y preparado para responder a sus solicitudes .</div>
                                     <div className="btn-box">
                                         <Link href="#" className="theme-btn btn-style-one"><span className="btn-title">Our Company</span></Link>
                                         <Link href="#" className="theme-btn btn-style-two"><span className="btn-title">Contact Us</span></Link>
@@ -57,9 +57,9 @@ export default function Banner() {
                         <div className="auto-container">
                             <div className="content-box justify-content-end">
                                 <div>
-                                    <h3 style={{color:"#0c2957"}}>Soluciones inmediatas </h3>
+                                    <h3 >Soluciones inmediatas </h3>
                                     <h2>Reparacion y  <br /> mantenimiento</h2>
-                                    <div className="text" style={{color:"#0c2957"}}>Reparación Mantenimiento Preventivo en todos los equipos de Refrigeración.</div>
+                                    <div className="text" >Reparación Mantenimiento Preventivo en todos los equipos de Refrigeración.</div>
                                     <div className="btn-box">
                                         <Link href="#" className="theme-btn btn-style-one"><span className="btn-title">Our Company</span></Link>
                                         <Link href="#" className="theme-btn btn-style-two"><span className="btn-title">Contact Us</span></Link>
