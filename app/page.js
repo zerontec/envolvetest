@@ -17,20 +17,20 @@ export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} wrapperCls="home_1">
+            <Layout headerStyle={1} footerStyle={3} wrapperCls="home_1">
                 <Banner />
                 <Clients />
                 <Features />
-                <About />
-                <Funfacts />
+                {/* <About />
+                <Funfacts /> */}
                 <WhyChooseUs />
-                <Cases />
+                {/* <Cases /> */}
                 <Process />
                 <Testimonial />
-                <Pricing />
-                <News />
+                {/* <Pricing /> */}
+                {/* <News /> */}
                 <Map />
-                <Cta />
+                {/* <Cta /> */}
                 <Feature />
             </Layout>
         </>
