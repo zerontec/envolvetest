@@ -60,30 +60,31 @@ export default function MapSlider1() {
                 <SwiperSlide className="inner-box">
                     <div className="icon-box">
                         <div className="icon"><span className="flaticon-discussion" /></div>
-                        <h4>Turkey</h4>
-                        <h5>Branches over 6 cities</h5>
+                        <h4>USA </h4>
+                        {/* <h5>Branches over 6 cities</h5> */}
                     </div>
-                    <h3>01. Istanbul</h3>
+                    <h3>01. Pensilvania</h3>
                     <ul>
-                        <li>33/2 Korur Ap. Beyoglu, 34420</li>
-                        <li>Mon - Sat: 09.00 to 06.00 Sun:Closed</li>
-                        <li><Link href="tel:+1800555440055">+1 800 555 44 00 &amp; 55</Link></li>
-                        <li><Link href="mailto:supportteam@Envolve.com">supportteam@Envolve.com</Link></li>
+                        <li>236 North 9th Street, Reading, PA, USA</li>
+                        <li>Mon - Sat: 08.00 to 21.00 Sun:Closed</li>
+                        <li><Link href="tel:+1800555440055">+1 800 555 44 00 (Toll free)
++1 407 329 3838 &amp; 55</Link></li>
+                        <li><Link href="mailto:supportteam@Envolve.com">admin@zeroncold.com</Link></li>
                     </ul>
                     <Link href="#" className="link-btn">Get Direction</Link>
                 </SwiperSlide>
                 <SwiperSlide className="inner-box">
                     <div className="icon-box">
                         <div className="icon"><span className="flaticon-discussion" /></div>
-                        <h4>Turkey</h4>
-                        <h5>Branches over 6 cities</h5>
+                        <h4>Mas medios de contacto</h4>
+                        {/* <h5>Branches over 6 cities</h5> */}
                     </div>
-                    <h3>01. Istanbul</h3>
+                    <h3>01. Reading Pensilvania </h3>
                     <ul>
-                        <li>33/2 Korur Ap. Beyoglu, 34420</li>
-                        <li>Mon - Sat: 09.00 to 06.00 Sun:Closed</li>
-                        <li><Link href="tel:+1800555440055">+1 800 555 44 00 &amp; 55</Link></li>
-                        <li><Link href="mailto:supportteam@Envolve.com">supportteam@Envolve.com</Link></li>
+                        {/* <li>33/2 Korur Ap. Beyoglu, 34420</li> */}
+                        <li>Mon - Sat: 08.00 to 21.00 Sun:Closed</li>
+                        <li><Link href="tel:+1800555440055">+1 407 3293838</Link></li>
+                        <li><Link href="mailto:supportteam@Envolve.com">zeron.cold@outlook.com</Link></li>
                     </ul>
                     <Link href="#" className="link-btn">Get Direction</Link>
                 </SwiperSlide>
