@@ -14,7 +14,7 @@ export default function Menu() {
 
             <ul className="navigation clearfix">
                 <li className="dropdown"><Link href="/">Home</Link>
-                    <ul>
+                    {/* <ul>
                         <li><Link href="/">Home Business</Link></li>
                         <li><Link href="/index-2">Home Consulting</Link></li>
                         <li><Link href="/index-3">Home Corporate</Link></li>
@@ -30,10 +30,10 @@ export default function Menu() {
                         <li><Link href="/index-13">Home Construction</Link></li>
                         <li><Link href="/index-14">Home Architecture</Link></li>
                         <li><Link href="/index-15">Home Digital Agency</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Company</Link>
-                    <ul>
+                <li><Link href="about">Empresa</Link>
+                    {/* <ul>
                         <li className="dropdown"><Link href="#">About Us</Link>
                             <ul>
                                 <li><Link href="/about-1">About Style 01</Link></li>
@@ -50,10 +50,10 @@ export default function Menu() {
                                 <li><Link href="/team-details">Team Details</Link></li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Services</Link>
-                    <ul>
+                <li  ><Link href="/services">Servicios</Link>
+                    {/* <ul>
                         <li><Link href="/services">Our All Services</Link></li>
                         <li><Link href="/finance-restructuring">Finance &amp; Restructuring</Link></li>
                         <li><Link href="/audit-assurance">Audit &amp; Assurance</Link></li>
@@ -61,10 +61,10 @@ export default function Menu() {
                         <li><Link href="/strategy-planning">Strategy &amp; Planning</Link></li>
                         <li><Link href="/software-research">Software &amp; Research</Link></li>
                         <li><Link href="/support-maintenance">Support &amp; Maintenance</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Pages</Link>
-                    <ul>
+                <li  ><Link href="/faq">FAQ’s</Link>
+                    {/* <ul>
                         <li><Link href="/career">Career</Link></li>
                         <li className="dropdown"><Link href="#">Contact</Link>
                             <ul>
@@ -90,10 +90,10 @@ export default function Menu() {
                             </ul>
                         </li>
                         <li><Link href="/404">404</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#">Portfolio</Link>
-                    <ul>
+                <li ><Link href="/contact">Contactanos</Link>
+                    {/* <ul>
                         <li className="dropdown"><Link href="#">Portfolio Grid</Link>
                             <ul>
                                 <li><Link href="/portfolio-1">Grid View 01</Link></li>
@@ -103,46 +103,7 @@ export default function Menu() {
                         </li>
                         <li><Link href="/portfolio-4">Portfolio Masonry</Link></li>
                         <li><Link href="/portfolio-details">Portfolio Details</Link></li>
-                    </ul>
-                </li>
-                <li className="dropdown"><Link href="#">Blog</Link>
-                    <ul>
-                        <li className="dropdown"><Link href="#">Blog Default</Link>
-                            <ul>
-                                <li><Link href="/blog-1">Full Width</Link></li>
-                                <li><Link href="/blog-2">Left Sidebar</Link></li>
-                                <li><Link href="/blog-3">Right Sidebar</Link></li>
-                            </ul>
-                        </li>
-                        <li className="dropdown"><Link href="#">Blog Grdi View</Link>
-                            <ul>
-                                <li><Link href="/blog-4">Left Sidebar</Link></li>
-                                <li><Link href="/blog-5">Right Sidebar</Link></li>
-                            </ul>
-                        </li>
-                        <li className="dropdown"><Link href="#">Blog List View</Link>
-                            <ul>
-                                <li><Link href="/blog-6">Full Width</Link></li>
-                                <li><Link href="/blog-7">Left Sidebar</Link></li>
-                                <li><Link href="/blog-8">Right Sidebar</Link></li>
-                            </ul>
-                        </li>
-                        <li className="dropdown"><Link href="#">Single Post</Link>
-                            <ul>
-                                <li><Link href="/blog-details">With Sidebar</Link></li>
-                                <li><Link href="/blog-details-2">Without Sidebar</Link></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li className="dropdown"><Link href="#">Shop</Link>
-                    <ul>
-                        <li><Link href="/shop">Products</Link></li>
-                        <li><Link href="/product-details">Product Details</Link></li>
-                        <li><Link href="/shopping-cart">Shopping Cart</Link></li>
-                        <li><Link href="/checkout">Checkout</Link></li>
-                        <li><Link href="/account">My Account</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
             </ul>
         </>

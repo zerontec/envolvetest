@@ -7,7 +7,7 @@ export default function Features() {
             <section className="features-section">
                 <div className="auto-container">
                     <div className="sec-title text-center">
-                        <h2>Developing leaders &amp; <br /> High-performance creative teams</h2>
+                        <h2>Conoce algunos de  &amp; <br /> nuestros servicios </h2>
                         <div className="text-decoration">
                             <span className="left" />
                             <span className="right" />
@@ -18,19 +18,19 @@ export default function Features() {
                             <div className="inner-box">
                                 <div className="image">
                                     <div className="icon"><span className="flaticon-career" /></div>
-                                    <img className="lazy-image owl-lazy" src="/assets/images/resource/image-1.jpg" alt="" />
+                                    <img className="lazy-image owl-lazy" src="/assets/images/resource/servicio.jpg" alt="" />
                                 </div>
                                 <div className="content">
-                                    <h5>Explore</h5>
-                                    <h4>Our Company History</h4>
+                                    <h5>Prevención</h5>
+                                    <h4>Mantenimiento Preventivo</h4>
                                 </div>
                                 <div className="overlay">
                                     <div className="content">
-                                        <h5>Explore</h5>
-                                        <h4>Our Company History</h4>
+                                        <h5>Prevención </h5>
+                                        <h4>mantenimiento Preventivo</h4>
                                     </div>
-                                    <div className="text" style={{ backgroundImage: 'url(assets/images/resource/image-1.jpg)' }}>
-                                        <p>In a free hour when our power choices when proveprevents best all easy to distinguish.</p>
+                                    <div className="text" style={{ backgroundImage: 'url(assets/images/resource/servicio.jpg)' }}>
+                                        <p>Ofrecemos servicios de mantenimiento regular para asegurar el óptimo funcionamiento de los sistemas de refrigeración.</p>
                                         <div className="link-btn"><Link href="#"><i className="flaticon-right-arrow" /></Link></div>
                                     </div>
                                 </div>
@@ -40,19 +40,19 @@ export default function Features() {
                             <div className="inner-box">
                                 <div className="image">
                                     <div className="icon"><span className="flaticon-question" /></div>
-                                    <img className="lazy-image owl-lazy" src="/assets/images/resource/image-2.jpg" alt="" />
+                                    <img className="lazy-image owl-lazy" src="/assets/images/resource/servicio1.jpg" alt="" />
                                 </div>
                                 <div className="content">
-                                    <h5>Knowledge</h5>
-                                    <h4>Smart self services</h4>
+                                    <h5>Conocimiento</h5>
+                                    <h4>Reparación de sistemas de refrigeración </h4>
                                 </div>
                                 <div className="overlay">
                                     <div className="content">
-                                        <h5>Knowledge</h5>
-                                        <h4>Smart self services</h4>
+                                        <h5>Conocimiento</h5>
+                                        <h4>Reparación de sistemas de refrigeración </h4>
                                     </div>
-                                    <div className="text" style={{ backgroundImage: 'url(assets/images/resource/image-1.jpg)' }}>
-                                        <p>In a free hour when our power choices when proveprevents best all easy to distinguish.</p>
+                                    <div className="text" style={{ backgroundImage: 'url(assets/images/resource/servicio1.jpg)' }}>
+                                        <p>Nuestro equipo de técnicos altamente capacitados está preparado para diagnosticar y reparar cualquier tipo de avería en sistemas de refrigeración.</p>
                                         <div className="link-btn"><Link href="#"><i className="flaticon-right-arrow" /></Link></div>
                                     </div>
                                 </div>
@@ -62,19 +62,19 @@ export default function Features() {
                             <div className="inner-box">
                                 <div className="image">
                                     <div className="icon"><span className="flaticon-customer-service" /></div>
-                                    <img className="lazy-image owl-lazy" src="/assets/images/resource/image-3.jpg" alt="" />
+                                    <img className="lazy-image owl-lazy" src="/assets/images/resource/servicio2.jpg" alt="" />
                                 </div>
                                 <div className="content">
-                                    <h5>Connect</h5>
-                                    <h4>Integrated Support</h4>
+                                    <h5>Soluciones</h5>
+                                    <h4>Instalación de sitemas de Refrigeración</h4>
                                 </div>
                                 <div className="overlay">
                                     <div className="content">
-                                        <h5>Connect</h5>
-                                        <h4>Integrated Support</h4>
+                                        <h5>Soluciones</h5>
+                                        <h4>Instalación de sitemas de Refrigeración</h4>
                                     </div>
-                                    <div className="text" style={{ backgroundImage: 'url(assets/images/resource/image-1.jpg)' }}>
-                                        <p>In a free hour when our power choices when proveprevents best all easy to distinguish.</p>
+                                    <div className="text" style={{ backgroundImage: 'url(assets/images/resource/servicio2.jpg)' }}>
+                                        <p>Brindamos servicios completos de instalación de sistemas de refrigeración, ya sea para hogares, oficinas o comercios.</p>
                                         <div className="link-btn"><Link href="#"><i className="flaticon-right-arrow" /></Link></div>
                                     </div>
                                 </div>
@@ -82,9 +82,9 @@ export default function Features() {
                         </div>
                     </div>
                     <div className="bottom-content text-center">
-                        <div className="text">We help take your small business to the next level. Don’t hesitate to contact us.</div>
-                        <h3>30 Minutes Free Consultation</h3>
-                        <div className="link-btn"><Link href="#" className="theme-btn btn-style-two"><span className="btn-title">Send request</span></Link></div>
+                        <div className="text">Necesitas  ayuda? .</div>
+                        <h3>Realiza una cita es totalmente gratis</h3>
+                        <div className="link-btn"><Link href="#" className="theme-btn btn-style-two"><span className="btn-title">Enviar solicitud</span></Link></div>
                     </div>
                 </div>
             </section>
